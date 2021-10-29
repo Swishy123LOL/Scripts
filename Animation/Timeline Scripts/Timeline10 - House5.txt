@@ -1,0 +1,4 @@
+EnableObject(Collider1, false) : 0,
+PlaySound(DoorKnock) : 0.5,
+TriggerDialogue(Tl_Dlg2) : 1.3,
+EnableObject(Collider1, true) : 0,

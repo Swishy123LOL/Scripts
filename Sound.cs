@@ -1,7 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System;
 using UnityEngine;
-using UnityEngine.Audio;
 [System.Serializable]
 public class Sound
 {
@@ -14,7 +12,7 @@ public class Sound
     [Range(-1f, 1f)]
     public float Pan;
 
-    [Range(1f, 2f)]
+    [Range(-1f, 3f)]
     public float Pitch = 1f;
 
     [HideInInspector]

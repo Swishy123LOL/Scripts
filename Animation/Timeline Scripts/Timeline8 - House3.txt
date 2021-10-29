@@ -1,0 +1,8 @@
+RotZ(Tl_Obj2, 36000, 10, 19) : 0,
+MoveX(Tl_Obj2, 100, 5, 19) : 2,
+EnableObject(Character, true) : 3,
+SwapPos(Character, Tl_Obj1) : 0,
+EnableObject(Tl_Obj1, false) : 0,
+EnableObject(Tl_Obj3, false) : 0,
+EnableObject(Scene, true) : 0,
+EnableObject(Scene1, false) : 0,

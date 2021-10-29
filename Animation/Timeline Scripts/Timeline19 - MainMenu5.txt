@@ -1,0 +1,5 @@
+MoveX(Save1, -15, 1, 26) : 0,
+MoveX(Save2, -15, 1, 26) : 0.2,
+MoveX(Save3, -15, 1, 26) : 0.2,
+MoveY(Options, -10, 1, 14) : 0,
+EnableObject(Menu3, false) : 1,
