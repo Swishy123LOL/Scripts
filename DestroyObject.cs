@@ -14,4 +14,14 @@ public class DestroyObject : MonoBehaviour
         if (!enableInstead) Destroy(gameObject);
         else gameObject.SetActive(true);
     }
+
+    public void DestroyWithName(string name)
+    {
+        Destroy(GameObject.Find(name));
+    }
+
+    public void DestroyParent()
+    {
+        Destroy(transform.parent.gameObject);
+    }
 }
